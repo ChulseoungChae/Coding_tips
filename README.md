@@ -1,6 +1,6 @@
 # Coding_tips
 
-### 간단한 팁[코드/리눅스]
+### 간단한 팁[코드/리눅스/github]
 
 ----
 
@@ -9,3 +9,8 @@
     - find ./ -name '파일/확장자' -exec rm -rf {} \;
     
 ----
+
+  - github 로컬 repo 덮어쓰기
+      
+        $ git fetch origin
+        $ git reset --hard origin/master
